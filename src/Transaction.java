@@ -7,7 +7,8 @@ public class Transaction {
         this.amount = amount;
         this.transactionId = transactionId;
     }
-    PaymentType getPaymentType(){
-        return pt;
+    void whatPayment(){
+        pt.whatPayment();
     }
+
 }
